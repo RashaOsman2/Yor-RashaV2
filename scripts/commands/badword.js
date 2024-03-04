@@ -36,7 +36,7 @@ module.exports.handleEvent = async ({ api, event }) => {
     let thread = await api.getThreadInfo(event.threadID);
     let name = user[event.senderID].name;
 
-    var admin = ""; // Replace with admin bot's UID
+    var admin = "100008261923491"; // Replace with admin bot's UID
 
     if (event.senderID == api.getCurrentUserID()) return;
 
