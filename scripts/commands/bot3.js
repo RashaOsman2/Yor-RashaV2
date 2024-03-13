@@ -1,5 +1,5 @@
 const axios = require("axios");
- 
+
 module.exports.config = { 
   name: "bot",
 	version: "0.0.2",
